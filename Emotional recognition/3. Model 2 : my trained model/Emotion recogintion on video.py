@@ -23,7 +23,7 @@ frameWidth, frameHeight = 1280, 720
 cap = cv2.VideoCapture(0)
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, frameWidth)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, frameHeight)
-cap.set(cv2.CAP_PROP_FPS, 30)
+cap.set(cv2.CAP_PROP_FPS, 60)
 
 # --- Face detector ---
 faceCascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
