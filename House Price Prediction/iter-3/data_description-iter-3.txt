@@ -1,0 +1,68 @@
+LotFrontage: Linear feet of street connected to property
+
+LotArea: Lot size in square feet
+
+TotalBsmtSF: Total square feet of basement area
+
+BedroomAbvGr: Bedrooms above grade (does NOT include basement bedrooms)
+
+Fireplaces: Number of fireplaces
+
+PoolArea: Pool area in square feet
+
+GarageCars: Size of garage in car capacity
+
+WoodDeckSF: Wood deck area in square feet
+
+ScreenPorch: Screen porch area in square feet
+
+MSZoning: Identifies the general zoning classification of the sale.
+		
+       A	Agriculture
+       C	Commercial
+       FV	Floating Village Residential
+       I	Industrial
+       RH	Residential High Density
+       RL	Residential Low Density
+       RP	Residential Low Density Park 
+       RM	Residential Medium Density
+
+Condition1: Proximity to various conditions
+	
+       Artery	Adjacent to arterial street
+       Feedr	Adjacent to feeder street	
+       Norm	Normal	
+       RRNn	Within 200' of North-South Railroad
+       RRAn	Adjacent to North-South Railroad
+       PosN	Near positive off-site feature--park, greenbelt, etc.
+       PosA	Adjacent to postive off-site feature
+       RRNe	Within 200' of East-West Railroad
+       RRAe	Adjacent to East-West Railroad
+
+Heating: Type of heating
+		
+       Floor	Floor Furnace
+       GasA	Gas forced warm air furnace
+       GasW	Gas hot water or steam heat
+       Grav	Gravity furnace	
+       OthW	Hot water or steam heat other than gas
+       Wall	Wall furnace
+
+Street: Type of road access to property
+
+       Grvl	Gravel	
+       Pave	Paved
+
+CentralAir: Central air conditioning
+
+       N	No
+       Y	Yes
+
+Foundation: Type of foundation
+		
+       BrkTil	Brick & Tile
+       CBlock	Cinder Block
+       PConc	Poured Contrete	
+       Slab	Slab
+       Stone	Stone
+       Wood	Wood
