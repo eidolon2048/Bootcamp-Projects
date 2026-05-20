@@ -2,11 +2,7 @@
 
 Portfolio project for facial emotion recognition using a custom CNN model and a Streamlit application.
 
-Live app:
-
-```text
-https://emotial-recognition.streamlit.app
-```
+Live app: [https://emotial-recognition.streamlit.app](https://emotial-recognition.streamlit.app)
 
 ## Project Structure
 
