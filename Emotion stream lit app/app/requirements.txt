@@ -1,0 +1,8 @@
+streamlit>=1.51
+streamlit-webrtc
+av
+tensorflow==2.10.0
+opencv-python
+numpy
+pandas
+h5py
