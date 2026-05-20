@@ -1,52 +1,43 @@
 # Emotion Recognition Streamlit App
 
-Streamlit application for facial emotion recognition in live webcam video, uploaded images, and uploaded videos.
+Streamlit application for facial emotion recognition from uploaded images, uploaded videos, and live webcam input.
 
-## Run From Finder
+The app detects faces with OpenCV, preprocesses each detected face to `48x48` grayscale, and predicts one of five emotion classes using a trained Keras/TensorFlow CNN model.
 
-Double-click:
+## For Local Run
+'''
+models/emotion_model4.json
+models/emotion_model4.h5
+'''
+
+## Features
+
+- Image upload emotion detection
+- Video upload emotion detection with frame sampling
+- Live webcam emotion detection
+- Face bounding boxes with predicted emotion labels
+- Confidence scores and class probability table
+
+## Emotion Classes
+
+The model predicts:
+
+- angry
+- happy
+- neutral
+- sad
+- surprise
+
+## Project Files
 
 ```text
-run_app.command
-```
+app.py
+  Main Streamlit application.
 
-macOS may ask for permission the first time. Keep the terminal window open while the app is running.
+requirements.txt
+  Python dependencies required by the app.
 
-## Run From VS Code
-
-Use Command Palette:
-
-```text
-Tasks: Run Task
-```
-
-Then choose:
-
-```text
-Run Emotion Streamlit App
-```
-
-To verify the environment, choose:
-
-```text
-Check Emotion App Environment
-```
-
-## Run From Terminal
-
-```bash
-conda activate streamlit_environment
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-Do not run this app with `python app.py`; Streamlit apps must be started with `streamlit run app.py`.
-
-## Model
-
-The app uses the trained Keras model copied into `models/`:
-
-- `models/emotion_model4.json`
-- `models/emotion_model4.h5`
-
-The model predicts five emotion classes: `angry`, `happy`, `neutral`, `sad`, and `surprise`.
+models/
+  Trained Keras model files used for prediction:
+  - emotion_model4.json
+  - emotion_model4.h5
