@@ -10,6 +10,8 @@ conda activate streamlit_environment
 pip install -r requirements.txt
 streamlit run app.py
 ```
+## Or use ready link if doesn't work
+Live app: [https://emotial-recognition.streamlit.app](https://emotial-recognition.streamlit.app)
 
 ## Features
 
