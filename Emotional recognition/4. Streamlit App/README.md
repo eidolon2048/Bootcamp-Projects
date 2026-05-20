@@ -5,10 +5,11 @@ Streamlit application for facial emotion recognition from uploaded images, uploa
 The app detects faces with OpenCV, preprocesses each detected face to `48x48` grayscale, and predicts one of five emotion classes using a trained Keras/TensorFlow CNN model.
 
 ## For Local Run
-'''
-models/emotion_model4.json
-models/emotion_model4.h5
-'''
+```
+conda activate streamlit_environment
+pip install -r requirements.txt
+streamlit run app.py
+```
 
 ## Features
 
